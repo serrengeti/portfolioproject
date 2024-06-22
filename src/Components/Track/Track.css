@@ -1,0 +1,34 @@
+.Track {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: none/*rgba(58, 58, 58, 0.35)*/; /* Added transparency */
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: larger;
+    border-bottom: 2px solid whitesmoke;
+  }
+  .Track:hover {
+    background-color: rgba(90, 90, 90, 0.9); /* Added transparency */
+  }
+  
+  .Track button {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+     
+  }
+  .TrackList {
+    display: flex;
+    flex-direction: column;
+  }
+  .Track #new {
+    font-weight: normal;
+    font-size: 13px;
+  }

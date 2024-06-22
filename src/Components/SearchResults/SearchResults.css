@@ -1,0 +1,36 @@
+/* Scroll bar track */
+.SearchResults {
+  width: 80%;
+  max-width: 800px;
+  background-color: rgba(2, 2, 2, 0.4); /* Added transparency */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0px auto; /* Center the SearchResults horizontally */
+  color: white;
+  max-height: 425px; /* Set a maximum height for the SearchResults */
+  overflow-y: auto; /* Enable vertical scrolling */
+  min-height: 300px;
+}
+
+/* Scroll bar thumb (the draggable part) */
+.SearchResults::-webkit-scrollbar-thumb {
+  background-color: darkmagenta; /* Color of the scroll thumb */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Scroll bar track (background of the scrollbar) */
+.SearchResults::-webkit-scrollbar-track {
+  background-color: transparent; /* Transparent background */
+}
+
+/* Scroll bar itself (the whole scrollbar) */
+.SearchResults::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+  height: 8px; /* Height of the scrollbar */
+}
+
+.SearchResults h2 {
+  font-size: 25px;
+  font-weight: 550;
+}
+
